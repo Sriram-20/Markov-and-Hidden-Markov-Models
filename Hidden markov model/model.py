@@ -15,8 +15,8 @@ states = [sun, rain]
 
 #Transition model
 transition = numpy.array(
-    [[0.8,0.2],#future prediction if today is sun
-     [0.3, 0.7]] #future prediction if today is rain
+    [[0.8,0.2],#future prediction if today is sunny
+     [0.3, 0.7]] #future prediction if today is rainy
 )
 
 #starting probability
